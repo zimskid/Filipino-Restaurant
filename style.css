@@ -1,1 +1,7 @@
 /* Some basic style css */
+header {
+    background-image: url('boodlefight.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
