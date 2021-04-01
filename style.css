@@ -93,11 +93,11 @@ header {
 .card:hover {
   border-color: #ff99ff;
 }
-ul.skills {
+ul.menu {
   padding: 0;
   text-align: center;
 }
-.skills li {
+.menu li {
   border-radius: 6px;
   display: inline-block;
   background: #ff9904;
@@ -105,7 +105,7 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
-.skills li:nth-child(odd) {
+.menu li:nth-child(odd) {
   background: #0399ff;
 }
 footer {
