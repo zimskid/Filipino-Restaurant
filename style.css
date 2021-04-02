@@ -120,7 +120,7 @@ footer .copyright {
   font-size: .75em;
 }
 /* Styles for larger screens */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   
   .flex {
       display: flex;
@@ -169,4 +169,19 @@ h3 {
     border: solid black 3px;
     border-radius: 10px;
     margin-top: 50px;  
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .nav {   
+    flex-direction:column;
+  }
+  .card-title {
+    background-color: yellow;}
+  header .profile-image:hover {
+      transform: scale(.5) rotate(720deg);
+    }
+  li, p {
+    font-weight: 900;
+  }
 }
